@@ -1,15 +1,15 @@
 #include <stdio.h>
-
 /**
- * main - prints the alphabet in lowercase
- * Return: 0
+ * main - Entry point
+ * Description: putchar alphabit
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char dbana;
-
-	for (dbana = 'a'; dbana <= 'z'; dbana++)
-		putchar(dbana);
-		putchar('\n');
-	return (0);
+char alph;
+for (alph = 'a'; alph <= 'z'; alph++)
+putchar(alph);
+putchar('\n');
+return (0);
 }
