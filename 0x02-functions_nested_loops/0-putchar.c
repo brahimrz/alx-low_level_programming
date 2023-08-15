@@ -6,6 +6,9 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char str[10] = "_putchar\n";
+
+	for (int b = 0; b <= 8; b++)
+		putchar(str[b]);
 	return (0);
 }
