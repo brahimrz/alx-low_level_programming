@@ -2,14 +2,15 @@
 
 /**
  * main -  function that prints the alphabet, in lowercase
+ * Description:  
  * Returne: 0
  */
 
 void print_alphabet(void)
 {
-	 int b;
+	int b;
 
-	 for (b = 97; b <= 122; b++)
-		 _putchar(b);
-	 _putchar('\n');
+	for (b = 97; b <= 122; b++)
+		_putchar(b);
+	_putchar('\n');
 }
